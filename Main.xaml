@@ -104,6 +104,7 @@
       <AssemblyReference>AttendedRobotStatus</AssemblyReference>
       <AssemblyReference>System.Collections.Immutable</AssemblyReference>
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="598,3626" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -203,7 +204,7 @@
         </Catch>
       </TryCatch.Catches>
     </TryCatch>
-    <If Condition="[directory.GetFiles(input_folder).Count &lt; 1]" DisplayName="Robot Exit If No Invoice Found" sap:VirtualizedContainerService.HintSize="556,51" sap2010:WorkflowViewState.IdRef="If_3">
+    <If Condition="[directory.GetFiles(input_folder).Count &lt; 1]" DisplayName="Robot Exit If No Invoice Found" sap:VirtualizedContainerService.HintSize="484,479" sap2010:WorkflowViewState.IdRef="If_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -211,14 +212,14 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <If.Then>
-        <Sequence sap:VirtualizedContainerService.HintSize="326,272" sap2010:WorkflowViewState.IdRef="Sequence_8">
+        <Sequence sap:VirtualizedContainerService.HintSize="376,302" sap2010:WorkflowViewState.IdRef="Sequence_8">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <aa:AttendedRobotStatus DisplayName="Attended Robot Status" ErrorLvl="False" sap:VirtualizedContainerService.HintSize="284,79" sap2010:WorkflowViewState.IdRef="AttendedRobotStatus_5" InfoLvl="False" Message="No Invoice to Process, Robot Exit" WarnLvl="False" />
-          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="284,61" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="No Invoice to Process, Robot Exit" />
+          <aa:AttendedRobotStatus DisplayName="Attended Robot Status" ErrorLvl="False" sap:VirtualizedContainerService.HintSize="334,79" sap2010:WorkflowViewState.IdRef="AttendedRobotStatus_5" InfoLvl="False" Message="No Invoice to Process, Robot Exit" WarnLvl="False" />
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;No Invoice to Process, Robot Exit&quot;]" />
         </Sequence>
       </If.Then>
     </If>
