@@ -46,12 +46,13 @@
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="test" sap:VirtualizedContainerService.HintSize="326,277" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="test" sap:VirtualizedContainerService.HintSize="326,378" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ucas:UploadStorageFile TimeoutMS="{x:Null}" Destination="Invoice_Verztec.tiff" DisplayName="Upload Storage File" sap:VirtualizedContainerService.HintSize="284,185" sap2010:WorkflowViewState.IdRef="UploadStorageFile_1" Path="input\temp\Invoice_Verztec.tiff" StorageBucketName="bbl" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="284,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="test" />
   </Sequence>
 </Activity>
