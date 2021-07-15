@@ -58,6 +58,21 @@
           ]
         },
         {
+          "FieldId": "Doc.SemiStructured.Invoice.tax-id",
+          "FieldName": "tax-id",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
           "FieldId": "Doc.SemiStructured.Invoice.billing-addr",
           "FieldName": "billing-addr",
           "IsMultiValue": false,
@@ -142,6 +157,36 @@
             {
               "FieldId": "Doc.SemiStructured.Invoice.items.description",
               "FieldName": "description",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [
+                {
+                  "Key": "RequiresReference",
+                  "Value": "true"
+                }
+              ]
+            },
+            {
+              "FieldId": "Doc.SemiStructured.Invoice.items.quantity",
+              "FieldName": "quantity",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [
+                {
+                  "Key": "RequiresReference",
+                  "Value": "true"
+                }
+              ]
+            },
+            {
+              "FieldId": "Doc.SemiStructured.Invoice.items.unit-price",
+              "FieldName": "unit-price",
               "IsMultiValue": false,
               "Type": "Text",
               "DeriveFieldsFormat": "",
