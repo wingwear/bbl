@@ -22,5 +22,11 @@
   "UiPath.UiAutomation.Activities.MicrosoftAzureComputerVisionOCR.Language": "AutoDetect",
   "UiPath.OmniPage.Activities.OmniPageOCR.Scale": "1",
   "UiPath.OmniPage.Activities.OmniPageOCR.Language": "",
-  "UiPath.OmniPage.Activities.OmniPageOCR.Profile": "None"
+  "UiPath.OmniPage.Activities.OmniPageOCR.Profile": "None",
+  "UiPath.AbbyyEmbedded.Activities.AbbyyScreenOCR.Scale": "1",
+  "UiPath.AbbyyEmbedded.Activities.AbbyyScreenOCR.Language": "",
+  "UiPath.AbbyyEmbedded.Activities.AbbyyScreenOCR.CustomRecognitionProfilePath": "",
+  "UiPath.AbbyyEmbedded.Activities.AbbyyDocumentOCR.Scale": "1",
+  "UiPath.AbbyyEmbedded.Activities.AbbyyDocumentOCR.Language": "",
+  "UiPath.AbbyyEmbedded.Activities.AbbyyDocumentOCR.CustomRecognitionProfilePath": ""
 }

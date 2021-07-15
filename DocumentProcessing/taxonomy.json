@@ -73,53 +73,8 @@
           ]
         },
         {
-          "FieldId": "Doc.SemiStructured.Invoice.shipping-addr",
-          "FieldName": "shipping-addr",
-          "IsMultiValue": false,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
-        },
-        {
           "FieldId": "Doc.SemiStructured.Invoice.invoice-no",
           "FieldName": "invoice-no",
-          "IsMultiValue": false,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
-        },
-        {
-          "FieldId": "Doc.SemiStructured.Invoice.po-no",
-          "FieldName": "po-no",
-          "IsMultiValue": false,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
-        },
-        {
-          "FieldId": "Doc.SemiStructured.Invoice.vendor-vat-no",
-          "FieldName": "vendor-vat-no",
           "IsMultiValue": false,
           "Type": "Text",
           "DeriveFieldsFormat": "",
@@ -148,38 +103,8 @@
           ]
         },
         {
-          "FieldId": "Doc.SemiStructured.Invoice.tax",
-          "FieldName": "tax",
-          "IsMultiValue": false,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
-        },
-        {
           "FieldId": "Doc.SemiStructured.Invoice.total",
           "FieldName": "total",
-          "IsMultiValue": false,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
-        },
-        {
-          "FieldId": "Doc.SemiStructured.Invoice.payment-terms",
-          "FieldName": "payment-terms",
           "IsMultiValue": false,
           "Type": "Text",
           "DeriveFieldsFormat": "",
@@ -230,83 +155,8 @@
               ]
             },
             {
-              "FieldId": "Doc.SemiStructured.Invoice.items.quantity",
-              "FieldName": "quantity",
-              "IsMultiValue": false,
-              "Type": "Text",
-              "DeriveFieldsFormat": "",
-              "Components": [],
-              "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
-            },
-            {
-              "FieldId": "Doc.SemiStructured.Invoice.items.unit-price",
-              "FieldName": "unit-price",
-              "IsMultiValue": false,
-              "Type": "Text",
-              "DeriveFieldsFormat": "",
-              "Components": [],
-              "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
-            },
-            {
               "FieldId": "Doc.SemiStructured.Invoice.items.line-amount",
               "FieldName": "line-amount",
-              "IsMultiValue": false,
-              "Type": "Text",
-              "DeriveFieldsFormat": "",
-              "Components": [],
-              "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
-            },
-            {
-              "FieldId": "Doc.SemiStructured.Invoice.items.item-po-no",
-              "FieldName": "item-po-no",
-              "IsMultiValue": false,
-              "Type": "Text",
-              "DeriveFieldsFormat": "",
-              "Components": [],
-              "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
-            },
-            {
-              "FieldId": "Doc.SemiStructured.Invoice.items.line-no",
-              "FieldName": "line-no",
-              "IsMultiValue": false,
-              "Type": "Text",
-              "DeriveFieldsFormat": "",
-              "Components": [],
-              "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
-            },
-            {
-              "FieldId": "Doc.SemiStructured.Invoice.items.part-no",
-              "FieldName": "part-no",
               "IsMultiValue": false,
               "Type": "Text",
               "DeriveFieldsFormat": "",
