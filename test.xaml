@@ -53,6 +53,6 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ucas:UploadStorageFile TimeoutMS="{x:Null}" Destination="Invoice_Verztec.tiff" DisplayName="Upload Storage File" sap:VirtualizedContainerService.HintSize="284,185" sap2010:WorkflowViewState.IdRef="UploadStorageFile_1" Path="input\temp\Invoice_Verztec.tiff" StorageBucketName="bbl" />
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="284,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="test" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="284,61" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="Hello World" />
   </Sequence>
 </Activity>
