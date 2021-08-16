@@ -15,16 +15,16 @@ steps:
   inputs:
     versionType: 'AutoVersion'
     projectJsonPath: '$(Build.SourcesDirectory)'
-    orchestratorConnection: 'uipath_cloud_MFEC'
+    orchestratorConnection: 'uipath_cloud_MF'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
 - task: UiPathDeploy@2
   inputs:
-    orchestratorConnection: 'uipath_cloud_MFEC'
+    orchestratorConnection: 'uipath_cloud_MF'
     packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
     folderName: 'Default'
     environments: 'unattended'
 - task: UiPathRunJob@2
   inputs:
-    orchestratorConnection: 'uipath_cloud_MFEC'
+    orchestratorConnection: 'uipath_cloud_MF'
     processName: 'Bangkok.Bank_unattended'
     folderName: 'Default'
